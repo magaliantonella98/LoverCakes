@@ -19,9 +19,9 @@ nav {
     justify-content: space-between;
 }
 
-/* .navLinks{
-    margin-bottom:0.5rem;
-} */
+.navLinks{
+    margin-bottom:1rem;
+}
 
 a {
     color: rgb(51, 49, 49);
@@ -45,13 +45,11 @@ h1{
     margin: 1rem;
 }
 .seccionInicio{
-    width: 100%;
     display: flex;
     flex-direction: column;
     text-align:center;
     margin: 1rem;
     padding: 1rem;
-    /*background-color: #e99ab852;*/
 }
 .imgPagos{
     background-color: #f3eef171;
@@ -79,15 +77,16 @@ img{
     margin: 1rem;
     width: 260px;
  }
-/*---------------------Sobre Nosotros-------------*/
+/*---------------------Productos-------------*/
 .cards {
-    margin: 1rem;
+    margin: 2rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .product {
     margin: 1rem;
-    background-color: #f3eef1f8;
+    background-color: #f3f0f298;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,9 +96,6 @@ img{
     border: 1px solid #ccc;
     border-radius: 6px;
 }
-/*.product:hover{
-    background-color: rgb(240, 231, 239);
-}*/
 .imgProduct {
     width: 200px;
 }
@@ -117,7 +113,7 @@ img{
 .seccionNos {
     padding: 1rem;
     text-align: center;
-    width: 70%;
+    width: 500px;
 }
 .nosH2{
     margin: 1rem;
@@ -127,6 +123,7 @@ img{
 
 .contacto {
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     margin: 2rem;
@@ -135,13 +132,13 @@ img{
 .secciones {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 2rem;
+    justify-content: center;
+    margin: 20px;
 }
 
 .seccionContacto {
-    margin: 1rem;
-    width: 40%;
+    margin: 20px;
+    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -154,7 +151,6 @@ img{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-
 }
 textarea {
     width: 100%;
@@ -185,7 +181,7 @@ button{
 }
 
 iframe{
-    margin-top: 2rem;
+    margin-top: 60px;
     margin-bottom: 250px;
 }
 /*-----------------foter---------------*/
